@@ -49,7 +49,7 @@ export default function Page() {
         {error ? (
           <div className='text-center'>
             <p className='text-lg text-red-600 mb-2'>Having trouble syncing your account...</p>
-            <p className='text-sm text-gray-600'>We'll redirect you shortly, or you can try refreshing the page.</p>
+            <p className='text-sm text-gray-600'>We&apos;ll redirect you shortly, or you can try refreshing the page.</p>
           </div>
         ) : (
           <p className='text-lg'>Syncing your account data, please wait...</p>
