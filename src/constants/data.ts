@@ -15,7 +15,7 @@ export type Product = {
 export const navItems: NavItem[] = [
   {
     title: 'Dashboard',
-    url: '/dashboard',
+    url: '/dashboard/profile',
     icon: 'dashboard',
     label: 'Dashboard Overview'
   },
@@ -24,12 +24,6 @@ export const navItems: NavItem[] = [
     url: '/dashboard/profile/ai-interview',
     icon: 'brain',
     label: 'AI Career Interview'
-  },
-  {
-    title: 'Profiles',
-    url: '/dashboard/profile',
-    icon: 'user',
-    label: 'Profile Management'
   },
   {
     title: 'Resumes',

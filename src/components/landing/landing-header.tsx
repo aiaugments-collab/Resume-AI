@@ -49,7 +49,7 @@ export function LandingHeader() {
               Sign In
             </Button>
           </Link>
-          <Link href="/sign-up">
+          <Link href="/sign-in">
             <Button size="sm" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70">
               Get Started Free
             </Button>
@@ -89,7 +89,7 @@ export function LandingHeader() {
                   Sign In
                 </Button>
               </Link>
-              <Link href="/sign-up" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/sign-in" onClick={() => setIsMenuOpen(false)}>
                 <Button size="sm" className="w-full bg-gradient-to-r from-primary to-primary/80">
                   Get Started Free
                 </Button>

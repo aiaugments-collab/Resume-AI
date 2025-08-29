@@ -104,7 +104,7 @@ export default async function RootLayout({
         <NextTopLoader showSpinner={false} />
         <ClerkProvider
           signInUrl='/sign-in'
-          signUpUrl='/sign-up'
+          signUpUrl='/sign-in'
           afterSignOutUrl={'/sign-in'}
         >
           <NuqsAdapter>

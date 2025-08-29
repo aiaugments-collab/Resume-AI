@@ -167,7 +167,7 @@ export function HowItWorksSection() {
             viewport={{ once: true }}
             className="mt-16 text-center"
           >
-            <Link href="/sign-up">
+            <Link href="/sign-in">
               <Button size="lg" className="bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
                 Start Creating Your Resume
                 <ArrowRight className="ml-2 h-5 w-5" />

@@ -42,6 +42,55 @@
 - 💾 Auto-save functionality
 - 📤 Export to PDF
 - 🌓 Dark/Light mode
+- 🔧 **Easy Setup** - No environment configuration required!
+
+## 🚀 Quick Start (No Setup Required!)
+
+This project includes fallback environment variables, so you can run it immediately without any configuration:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/resume-ai.git
+cd resume-ai
+
+# Install dependencies
+pnpm install
+
+# Run the development server
+pnpm dev
+```
+
+That's it! The app will work out of the box with demo credentials.
+
+## 🔧 Environment Variables (Optional)
+
+The app works without any environment setup, but you can customize it with your own credentials:
+
+### Required for Production
+- `DATABASE_URL` - PostgreSQL database connection string
+- `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` - Clerk authentication public key
+- `CLERK_SECRET_KEY` - Clerk authentication secret key
+- `GEMINI_API_KEY` - Google AI API key for resume generation
+- `CLOUDINARY_CLOUD_NAME` - Cloudinary cloud name for image uploads
+- `CLOUDINARY_API_KEY` - Cloudinary API key
+- `CLOUDINARY_API_SECRET` - Cloudinary API secret
+
+### Optional
+- `NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL` - Custom sign-in redirect (default: `/welcome`)
+- `NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL` - Custom sign-up redirect (default: `/welcome`)
+
+### How Fallbacks Work
+
+If you don't provide environment variables, the app automatically uses demo credentials:
+- ✅ Demo database with sample data
+- ✅ Demo authentication (Clerk test keys)
+- ✅ Demo AI integration (Gemini API)
+- ✅ Demo file uploads (Cloudinary)
+
+This makes it perfect for:
+- 🎯 Quick demos and testing
+- 👨‍💻 Development and learning
+- 🔄 Contributing to the project
 
 Cheers! 🥂
 # Resume-AI

@@ -56,7 +56,7 @@ export function CTASection() {
 
             {/* CTA Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link href="/sign-up">
+              <Link href="/sign-in">
                 <Button 
                   size="lg" 
                   className="bg-white text-primary hover:bg-white/90 px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"

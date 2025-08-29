@@ -23,7 +23,8 @@ export default async function Dashboard() {
 
   if (!userId) {
     return redirectToSignIn();
-  } else {
-    redirect('/dashboard/profile');
   }
+  
+  // Dashboard now redirects to profile page since they show the same content
+  redirect('/dashboard/profile');
 }
