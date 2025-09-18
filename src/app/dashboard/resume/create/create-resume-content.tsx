@@ -28,7 +28,7 @@ export default function CreateResumeContent() {
     <PageContainer scrollable>
       <div className='flex flex-1 flex-col space-y-4'>
         <div className='mb-8'>
-          <h1 className='mb-2 text-3xl font-bold'>Create New Resume</h1>
+          <h1 className='mb-2 text-3xl font-bold'>Generate Professional Document</h1>
           <div className='flex items-center gap-2'>
             <div
               className={`h-2 w-2 rounded-full ${

@@ -13,11 +13,11 @@ export default function NotFound() {
         404
       </span>
       <h2 className='font-heading my-2 text-2xl font-bold'>
-        Something&apos;s missing
+        Resource Not Found
       </h2>
       <p>
-        Sorry, the page you are looking for doesn&apos;t exist or has been
-        moved.
+        The requested platform resource is not available or has been relocated.
+        Please verify the URL or contact enterprise support.
       </p>
       <div className='mt-8 flex justify-center gap-2'>
         <Button onClick={() => router.back()} variant='default' size='lg'>
@@ -28,7 +28,7 @@ export default function NotFound() {
           variant='ghost'
           size='lg'
         >
-          Back to Home
+          Platform Dashboard
         </Button>
       </div>
     </div>

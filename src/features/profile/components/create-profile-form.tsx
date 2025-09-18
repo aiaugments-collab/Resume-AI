@@ -110,10 +110,10 @@ export default function CreateProfileForm({
     try {
       if (profile) {
         await updateProfile({ id: profile.id, ...data });
-        toast.success('Profile updated successfully');
+        toast.success('Professional profile optimized successfully');
       } else {
         await createProfile(data);
-        toast.success('Profile created successfully');
+        toast.success('Professional profile architected successfully');
       }
       closeModal();
     } catch (error) {
@@ -121,25 +121,25 @@ export default function CreateProfileForm({
       if (process.env.NODE_ENV === 'development') {
         console.error('Profile submission error:', error);
       }
-      toast.error('Failed to submit profile. Please try again.');
+      toast.error('Profile deployment failed. Please retry or contact enterprise support.');
     }
   };
 
   const steps = [
     {
-      title: 'Basic Information',
+      title: 'Professional Identity',
       fields: ['email', 'firstname', 'lastname', 'contactno', 'country', 'city']
     },
     {
-      title: 'Work Experience',
+      title: 'Career Portfolio',
       fields: ['jobs']
     },
     {
-      title: 'Education',
+      title: 'Academic Credentials',
       fields: ['educations']
     },
     {
-      title: 'Review',
+      title: 'Strategic Review',
       fields: []
     }
   ];

@@ -19,17 +19,17 @@ export default function OverViewPage() {
       <div className='flex flex-1 flex-col space-y-2'>
         <div className='flex items-center justify-between space-y-2'>
           <h2 className='text-2xl font-bold tracking-tight'>
-            Hi, Welcome back 👋
+            Welcome to your Career Intelligence Platform
           </h2>
           <div className='hidden items-center space-x-2 md:flex'>
-            <Button>Download</Button>
+            <Button>Export Analytics</Button>
           </div>
         </div>
         <Tabs defaultValue='overview' className='space-y-4'>
           <TabsList>
-            <TabsTrigger value='overview'>Overview</TabsTrigger>
+            <TabsTrigger value='overview'>Intelligence Dashboard</TabsTrigger>
             <TabsTrigger value='analytics' disabled>
-              Analytics
+              Advanced Analytics
             </TabsTrigger>
           </TabsList>
           <TabsContent value='overview' className='space-y-4'>
@@ -37,7 +37,7 @@ export default function OverViewPage() {
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
-                    Total Revenue
+                    Platform ROI
                   </CardTitle>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -55,14 +55,14 @@ export default function OverViewPage() {
                 <CardContent>
                   <div className='text-2xl font-bold'>$45,231.89</div>
                   <p className='text-xs text-muted-foreground'>
-                    +20.1% from last month
+                    +20.1% career advancement value
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
-                    Subscriptions
+                    Enterprise Users
                   </CardTitle>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -80,15 +80,15 @@ export default function OverViewPage() {
                   </svg>
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>+2350</div>
+                  <div className='text-2xl font-bold'>+2,350</div>
                   <p className='text-xs text-muted-foreground'>
-                    +180.1% from last month
+                    +180.1% platform adoption
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-                  <CardTitle className='text-sm font-medium'>Sales</CardTitle>
+                  <CardTitle className='text-sm font-medium'>Success Rate</CardTitle>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     viewBox='0 0 24 24'
@@ -104,16 +104,16 @@ export default function OverViewPage() {
                   </svg>
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>+12,234</div>
+                  <div className='text-2xl font-bold'>98.7%</div>
                   <p className='text-xs text-muted-foreground'>
-                    +19% from last month
+                    +19% optimization rate
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
                   <CardTitle className='text-sm font-medium'>
-                    Active Now
+                    Active Sessions
                   </CardTitle>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
@@ -131,7 +131,7 @@ export default function OverViewPage() {
                 <CardContent>
                   <div className='text-2xl font-bold'>+573</div>
                   <p className='text-xs text-muted-foreground'>
-                    +201 since last hour
+                    +201 active professionals
                   </p>
                 </CardContent>
               </Card>
@@ -142,9 +142,9 @@ export default function OverViewPage() {
               </div>
               <Card className='col-span-4 md:col-span-3'>
                 <CardHeader>
-                  <CardTitle>Recent Sales</CardTitle>
+                  <CardTitle>Recent Optimizations</CardTitle>
                   <CardDescription>
-                    You made 265 sales this month.
+                    265 career documents optimized this month.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>

@@ -11,10 +11,10 @@ export function LandingHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: 'Features', href: '#features' },
-    { name: 'How it Works', href: '#how-it-works' },
-    { name: 'Pricing', href: '#pricing' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Platform Features', href: '#features' },
+    { name: 'AI Technology', href: '#how-it-works' },
+    { name: 'Enterprise Pricing', href: '#pricing' },
+    { name: 'Support Center', href: '#faq' },
   ];
 
   return (
@@ -24,7 +24,7 @@ export function LandingHeader() {
         <Link href="/" className="flex items-center space-x-2">
           <Icons.resume className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            Resume AI
+            CareerFlow AI
           </span>
         </Link>
 
@@ -51,7 +51,7 @@ export function LandingHeader() {
           </Link>
           <Link href="/sign-in">
             <Button size="sm" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70">
-              Get Started Free
+              Start Free Trial
             </Button>
           </Link>
         </div>
@@ -91,7 +91,7 @@ export function LandingHeader() {
               </Link>
               <Link href="/sign-in" onClick={() => setIsMenuOpen(false)}>
                 <Button size="sm" className="w-full bg-gradient-to-r from-primary to-primary/80">
-                  Get Started Free
+                  Start Free Trial
                 </Button>
               </Link>
             </div>

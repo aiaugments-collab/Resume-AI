@@ -50,13 +50,13 @@ export function ResumeCreateForm({ profileId }: ResumeCreateFormProps) {
         },
         {
           onSuccess: async (data) => {
-            toast.success('Resume created successfully');
+            toast.success('Professional document generated successfully');
             setIsNavigating(true);
             // @ts-ignore
             router.push(`/dashboard/resume/edit/${data?.id}`);
           },
           onError: (error) => {
-            toast.error('Failed to create resume');
+            toast.error('Failed to generate document');
             // TODO: Replace with proper error reporting service (e.g., Sentry)
             if (process.env.NODE_ENV === 'development') {
               console.error('Error creating resume:', error);
@@ -69,7 +69,7 @@ export function ResumeCreateForm({ profileId }: ResumeCreateFormProps) {
       if (process.env.NODE_ENV === 'development') {
         console.error('Error submitting form:', error);
       }
-      toast.error('Failed to create resume');
+      toast.error('Failed to generate document');
     }
   };
 
@@ -134,10 +134,10 @@ export function ResumeCreateForm({ profileId }: ResumeCreateFormProps) {
               <Loader2 className='mr-2 h-4 w-4 animate-spin' />
             )}
             {isCreating
-              ? 'Creating...'
+              ? 'Processing...'
               : isNavigating
-                ? 'Redirecting...'
-                : 'Create Resume'}
+                ? 'Deploying...'
+                : 'Generate Document'}
           </UiButton>
         </div>
       </form>

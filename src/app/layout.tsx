@@ -9,22 +9,22 @@ import { ClerkProvider } from '@clerk/nextjs';
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: 'Resume AI - AI-Powered Resume Builder',
+  title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
   description:
-    'Create professional, ATS-friendly resumes with AI. Generate tailored resumes from job descriptions using advanced AI technology.',
+    'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
   keywords: [
-    'resume builder',
-    'AI resume',
-    'AI-powered resume',
-    'job application',
-    'CV maker',
-    'professional resume',
-    'ATS-friendly',
-    'resume generator',
-    'AI resume writer',
-    'Next.js',
-    'React',
-    'PDF resume'
+    'enterprise career platform',
+    'AI career intelligence',
+    'machine learning resume',
+    'career optimization platform',
+    'executive resume builder',
+    'enterprise AI solutions',
+    'predictive career analytics',
+    'professional development platform',
+    'workforce intelligence',
+    'career strategy platform',
+    'executive positioning',
+    'enterprise recruitment tools'
   ],
   authors: [
     {
@@ -46,24 +46,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://resume-ai.vercel.app',
-    title: 'Resume AI - AI-Powered Resume Builder',
+    title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
     description:
-      'Create professional, ATS-friendly resumes with AI. Generate tailored resumes from job descriptions using advanced AI technology.',
-    siteName: 'Resume AI',
+      'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
+    siteName: 'CareerFlow AI',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Resume AI - AI-Powered Resume Builder'
+        alt: 'CareerFlow AI - Enterprise Career Intelligence Platform'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resume AI - AI-Powered Resume Builder',
+    title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
     description:
-      'Create professional, ATS-friendly resumes with AI. Generate tailored resumes from job descriptions using advanced AI technology.',
+      'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
     images: ['/og-image.png']
   },
   icons: {
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   category: 'productivity',
-  applicationName: 'Resume AI',
+  applicationName: 'CareerFlow AI',
   generator: 'Next.js'
 };
 

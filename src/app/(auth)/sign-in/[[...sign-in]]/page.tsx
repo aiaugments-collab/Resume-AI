@@ -2,8 +2,8 @@ import { SignIn } from '@clerk/nextjs';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Authentication | Sign In',
-  description: 'Sign In page for authentication.'
+  title: 'Enterprise Access | CareerFlow AI',
+  description: 'Secure enterprise authentication portal for career intelligence platform.'
 };
 
 export default function Page() {

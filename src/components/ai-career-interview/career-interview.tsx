@@ -155,7 +155,7 @@ export function CareerInterview({ onComplete, onCancel }: CareerInterviewProps) 
       const result = await response.json();
 
       if (result.success) {
-        addAIMessage("🎉 Amazing! I&apos;ve created your professional profile. You can now review and edit it before generating your resume!");
+        addAIMessage("🎯 Excellent! Your professional profile has been successfully architected. You may now review and optimize it before deploying your career intelligence document.");
         
         setTimeout(() => {
           onComplete(result.profile);
@@ -168,8 +168,8 @@ export function CareerInterview({ onComplete, onCancel }: CareerInterviewProps) 
       if (process.env.NODE_ENV === 'development') {
         console.error('Error processing interview:', error);
       }
-      toast.error('Failed to process interview. Please try again.');
-      addAIMessage("I&apos;m sorry, there was an error processing your information. Please try again or contact support.");
+        toast.error('Platform processing error. Please retry or contact enterprise support.');
+        addAIMessage("System processing error encountered. Please retry the operation or contact our enterprise support team for assistance.");
       setIsProcessing(false);
     }
   };
@@ -321,7 +321,7 @@ export function CareerInterview({ onComplete, onCancel }: CareerInterviewProps) 
                   value={currentInput}
                   onChange={(e) => setCurrentInput(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  placeholder="Enter a name for this profile..."
+                  placeholder="Enter professional profile identifier..."
                   disabled={isLoading}
                 />
               ) : (
@@ -329,7 +329,7 @@ export function CareerInterview({ onComplete, onCancel }: CareerInterviewProps) 
                   value={currentInput}
                   onChange={(e) => setCurrentInput(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  placeholder="Type your response here... (Press Enter to send)"
+                  placeholder="Enter your professional details... (Press Enter to submit)"
                   className="min-h-[60px] resize-none"
                   disabled={isLoading}
                 />

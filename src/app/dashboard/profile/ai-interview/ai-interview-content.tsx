@@ -73,11 +73,11 @@ export function AIInterviewContent() {
               <Brain className="h-8 w-8 text-white" />
             </div>
             <h1 className="text-3xl font-bold mb-2">
-              AI Career Interview
+              AI Career Intelligence Advisor
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Let our AI guide you through creating a comprehensive professional profile. 
-              Just have a conversation, and we&apos;ll build your profile automatically.
+              Deploy our advanced AI algorithms to architect comprehensive professional profiles through intelligent conversation. 
+              Our machine learning engine automatically constructs strategic career positioning frameworks.
             </p>
           </div>
         </div>

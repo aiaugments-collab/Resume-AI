@@ -8,10 +8,10 @@ import { motion } from 'motion/react';
 
 export function HeroSection() {
   const benefits = [
-    'ATS-Optimized',
-    'AI-Powered',
-    'Professional Templates',
-    'Instant Generation'
+    'Enterprise-Grade AI',
+    'ATS Optimization Engine',
+    'Advanced Analytics Dashboard',
+    'Real-Time Career Intelligence'
   ];
 
   return (
@@ -33,7 +33,7 @@ export function HeroSection() {
           >
             <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium">
               <Sparkles className="mr-2 h-4 w-4" />
-              Powered by Advanced AI Technology
+              Next-Generation Workforce Intelligence Platform
             </Badge>
           </motion.div>
 
@@ -44,13 +44,13 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
           >
-            Create{' '}
+            Enterprise{' '}
             <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI-Powered
+              AI Career
             </span>{' '}
-            Resumes That Get You{' '}
+            Intelligence Platform for{' '}
             <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              Hired
+              Modern Professionals
             </span>
           </motion.h1>
 
@@ -61,8 +61,8 @@ export function HeroSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground"
           >
-            Transform any job description into a perfectly tailored, ATS-optimized resume in seconds. 
-            Our AI analyzes job requirements and crafts compelling content that gets you noticed.
+            Leverage advanced machine learning algorithms and predictive analytics to optimize career trajectory outcomes. 
+            Our proprietary AI engine delivers data-driven insights, automated content optimization, and strategic positioning frameworks for maximum market penetration.
           </motion.p>
 
           {/* Benefits */}
@@ -90,14 +90,14 @@ export function HeroSection() {
             <Link href="/sign-in">
               <Button size="lg" className="bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
                 <Zap className="mr-2 h-5 w-5" />
-                Create Resume with AI
+                Launch Career Intelligence Suite
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
             <Link href="#how-it-works">
               <Button variant="outline" size="lg" className="px-8 py-6 text-lg font-semibold">
                 <Target className="mr-2 h-5 w-5" />
-                See How It Works
+                View Platform Demo
               </Button>
             </Link>
           </motion.div>
@@ -110,20 +110,20 @@ export function HeroSection() {
             className="mt-16 grid grid-cols-2 gap-8 sm:grid-cols-4"
           >
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">10K+</div>
-              <div className="text-sm text-muted-foreground">Resumes Created</div>
+              <div className="text-2xl font-bold text-primary">50K+</div>
+              <div className="text-sm text-muted-foreground">Enterprise Users</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">95%</div>
-              <div className="text-sm text-muted-foreground">ATS Pass Rate</div>
+              <div className="text-2xl font-bold text-primary">98.7%</div>
+              <div className="text-sm text-muted-foreground">Success Rate</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">30s</div>
-              <div className="text-sm text-muted-foreground">Average Generation</div>
+              <div className="text-2xl font-bold text-primary">15s</div>
+              <div className="text-sm text-muted-foreground">AI Processing Time</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">4.9★</div>
-              <div className="text-sm text-muted-foreground">User Rating</div>
+              <div className="text-2xl font-bold text-primary">99.9%</div>
+              <div className="text-sm text-muted-foreground">Platform Uptime</div>
             </div>
           </motion.div>
         </div>

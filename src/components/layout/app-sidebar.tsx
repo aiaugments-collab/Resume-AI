@@ -44,9 +44,9 @@ import { usePathname } from 'next/navigation';
 import { Icons } from '../icons';
 
 export const company = {
-  name: 'Resume AI',
+  name: 'CareerFlow AI',
   logo: Icons.resume,
-  plan: 'Work in Progress'
+  plan: 'Enterprise Platform'
 };
 
 type UserInfoProps = ReturnType<typeof useUser>['user'];
@@ -88,7 +88,7 @@ export default function AppSidebar() {
       </SidebarHeader>
       <SidebarContent className='overflow-x-hidden'>
         <SidebarGroup>
-          <SidebarGroupLabel>Overview</SidebarGroupLabel>
+          <SidebarGroupLabel>Platform Suite</SidebarGroupLabel>
           <SidebarMenu>
             {navItems.map((item) => {
               const Icon = item.icon ? Icons[item.icon] : Icons.logo;
@@ -178,19 +178,19 @@ export default function AppSidebar() {
                   <DropdownMenuItem asChild>
                     <Link href="/dashboard/settings">
                       <BadgeCheck />
-                      Account Settings
+                      Platform Configuration
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
                     <Link href="/dashboard/billing">
                       <CreditCard />
-                      Billing & Plans
+                      Enterprise Billing
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
                     <Link href="/dashboard/help">
                       <Bell />
-                      Help & Support
+                      Professional Support
                     </Link>
                   </DropdownMenuItem>
                 </DropdownMenuGroup>

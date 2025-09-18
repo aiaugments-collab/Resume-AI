@@ -29,28 +29,28 @@ export function CTASection() {
 
             {/* Headline */}
             <h2 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight text-white sm:text-5xl">
-              Ready to transform your career with AI?
+              Ready to deploy enterprise-grade career intelligence?
             </h2>
 
             {/* Subtitle */}
             <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90">
-              Join thousands of professionals who have already landed their dream jobs using Resume AI. 
-              Start creating your perfect resume today.
+              Join Fortune 500 executives and enterprise professionals leveraging our AI-powered career optimization platform. 
+              Deploy strategic career intelligence solutions today.
             </p>
 
             {/* Benefits */}
             <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm text-white/80">
               <div className="flex items-center space-x-2">
                 <Zap className="h-4 w-4" />
-                <span>Generate in 30 seconds</span>
+                <span>Sub-15-second processing</span>
               </div>
               <div className="flex items-center space-x-2">
                 <ArrowRight className="h-4 w-4" />
-                <span>ATS-optimized</span>
+                <span>Enterprise-grade optimization</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Sparkles className="h-4 w-4" />
-                <span>AI-powered content</span>
+                <span>Predictive career analytics</span>
               </div>
             </div>
 
@@ -62,7 +62,7 @@ export function CTASection() {
                   className="bg-white text-primary hover:bg-white/90 px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   <Zap className="mr-2 h-5 w-5" />
-                  Start Free Trial
+                  Deploy Platform Trial
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -79,7 +79,7 @@ export function CTASection() {
 
             {/* Trust indicators */}
             <div className="mt-8 text-sm text-white/70">
-              <p>✓ No credit card required • ✓ 7-day free trial • ✓ Cancel anytime</p>
+              <p>✓ Enterprise trial available • ✓ SOC 2 compliant • ✓ 24/7 support included</p>
             </div>
           </div>
         </motion.div>

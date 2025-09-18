@@ -33,28 +33,28 @@ export function HelpContent() {
 
   const popularArticles = [
     {
-      title: 'How to create your first AI-powered resume',
-      description: 'Step-by-step guide to getting started with Resume AI',
+      title: 'Deploy your first AI-powered career document',
+      description: 'Enterprise guide to leveraging CareerFlow AI platform capabilities',
       readTime: '5 min read',
-      category: 'Getting Started'
+      category: 'Platform Onboarding'
     },
     {
-      title: 'Understanding ATS optimization',
-      description: 'Learn how our AI optimizes your resume for Applicant Tracking Systems',
+      title: 'Advanced ATS penetration strategies',
+      description: 'Master enterprise-grade optimization algorithms for maximum market penetration',
       readTime: '8 min read',
-      category: 'AI Features'
+      category: 'AI Intelligence'
     },
     {
-      title: 'Customizing resume templates',
-      description: 'How to personalize templates to match your style',
+      title: 'Executive template customization',
+      description: 'Configure professional templates for strategic positioning and brand alignment',
       readTime: '6 min read',
-      category: 'Templates'
+      category: 'Professional Templates'
     },
     {
-      title: 'Troubleshooting common issues',
-      description: 'Solutions to frequently encountered problems',
+      title: 'Platform optimization troubleshooting',
+      description: 'Enterprise-grade solutions for advanced platform configuration',
       readTime: '10 min read',
-      category: 'Troubleshooting'
+      category: 'Technical Support'
     }
   ];
 

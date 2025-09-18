@@ -14,56 +14,56 @@ export type Product = {
 //Info: The following data is used for the sidebar navigation and Cmd K bar.
 export const navItems: NavItem[] = [
   {
-    title: 'Dashboard',
+    title: 'Intelligence Hub',
     url: '/dashboard/profile',
     icon: 'dashboard',
-    label: 'Dashboard Overview'
+    label: 'Career Intelligence Dashboard'
   },
   {
-    title: 'AI Interview',
+    title: 'AI Career Advisor',
     url: '/dashboard/profile/ai-interview',
     icon: 'brain',
-    label: 'AI Career Interview'
+    label: 'AI-Powered Career Intelligence'
   },
   {
-    title: 'Resumes',
+    title: 'Document Engine',
     url: '/dashboard/resume',
     icon: 'resume',
-    label: 'Resume Management',
+    label: 'Professional Document Management',
     items: [
       {
-        title: 'All Resumes',
+        title: 'Document Portfolio',
         url: '/dashboard/resume'
       },
       {
-        title: 'Create Resume',
+        title: 'Generate Document',
         url: '/dashboard/resume/create'
       }
     ]
   },
   {
-    title: 'Templates',
+    title: 'Executive Templates',
     url: '/dashboard/templates',
     icon: 'layout',
-    label: 'Resume Templates'
+    label: 'Professional Template Library'
   },
   {
-    title: 'Analytics',
+    title: 'Performance Analytics',
     url: '/dashboard/analytics',
     icon: 'analytics',
-    label: 'Resume Analytics'
+    label: 'Career Intelligence Analytics'
   },
   {
-    title: 'Settings',
+    title: 'Platform Settings',
     url: '/dashboard/settings',
     icon: 'settings',
-    label: 'Account Settings'
+    label: 'Account Configuration'
   },
   {
-    title: 'Help & Support',
+    title: 'Enterprise Support',
     url: '/dashboard/help',
     icon: 'help',
-    label: 'Help Center'
+    label: 'Professional Support Center'
   }
 ];
 

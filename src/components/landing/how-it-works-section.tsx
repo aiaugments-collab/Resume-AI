@@ -19,52 +19,52 @@ export function HowItWorksSection() {
     {
       step: 1,
       icon: User,
-      title: 'Create Your Profile',
-      description: 'Add your personal information, work experience, education, and skills. This forms the foundation of your AI-powered resume.',
+      title: 'Professional Profile Architecture',
+      description: 'Establish comprehensive professional identity framework through structured data collection and strategic competency mapping for optimal market positioning.',
       details: [
-        'Personal & contact information',
-        'Work experience & achievements',
-        'Education & certifications',
-        'Skills & competencies'
+        'Executive profile configuration',
+        'Achievement quantification metrics',
+        'Credential verification system',
+        'Strategic competency architecture'
       ],
       color: 'from-blue-500 to-purple-600'
     },
     {
       step: 2,
       icon: FileText,
-      title: 'Paste Job Description',
-      description: 'Simply copy and paste the job description from any job posting. Our AI will analyze the requirements and keywords.',
+      title: 'Market Intelligence Integration',
+      description: 'Deploy advanced natural language processing to extract strategic requirements, competitive positioning insights, and market dynamics from target role specifications.',
       details: [
-        'Job title & company',
-        'Required qualifications',
-        'Key responsibilities',
-        'Preferred skills'
+        'Role specification analysis',
+        'Market requirement extraction',
+        'Competitive landscape mapping',
+        'Strategic keyword identification'
       ],
       color: 'from-green-500 to-blue-500'
     },
     {
       step: 3,
       icon: Brain,
-      title: 'AI Magic Happens',
-      description: 'Our advanced AI analyzes the job requirements and tailors your resume content to match perfectly with ATS optimization.',
+      title: 'AI Optimization Engine',
+      description: 'Execute proprietary machine learning algorithms to deliver contextually optimized professional narratives with predictive accuracy and strategic market alignment.',
       details: [
-        'Keyword optimization',
-        'Content tailoring',
-        'ATS formatting',
-        'Professional summary generation'
+        'Semantic optimization framework',
+        'Contextual narrative generation',
+        'ATS penetration algorithms',
+        'Strategic positioning intelligence'
       ],
       color: 'from-purple-500 to-pink-500'
     },
     {
       step: 4,
       icon: Download,
-      title: 'Download & Apply',
-      description: 'Review your AI-generated resume, make any final adjustments, and download as a professional PDF ready for applications.',
+      title: 'Enterprise Deployment',
+      description: 'Generate publication-ready executive documents with enterprise-grade formatting, compliance standards, and multi-channel distribution capabilities.',
       details: [
-        'Live preview & editing',
-        'Multiple template options',
-        'High-quality PDF export',
-        'Ready to submit'
+        'Real-time collaborative editing',
+        'Executive template portfolio',
+        'Enterprise-grade PDF generation',
+        'Multi-platform distribution'
       ],
       color: 'from-orange-500 to-red-500'
     }
@@ -81,18 +81,18 @@ export function HowItWorksSection() {
             viewport={{ once: true }}
           >
             <Badge variant="secondary" className="mb-4">
-              How It Works
+              Platform Architecture
             </Badge>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              From job posting to{' '}
+              Strategic career optimization through{' '}
               <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-                perfect resume
+                intelligent automation
               </span>{' '}
-              in 4 simple steps
+              in 4 enterprise-grade processes
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Our AI-powered process makes creating tailored resumes effortless. 
-              No more guessing what employers want to see.
+              Our proprietary AI architecture delivers data-driven career optimization through advanced machine learning, 
+              predictive analytics, and strategic market intelligence for maximum competitive advantage.
             </p>
           </motion.div>
         </div>
@@ -169,12 +169,12 @@ export function HowItWorksSection() {
           >
             <Link href="/sign-in">
               <Button size="lg" className="bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300">
-                Start Creating Your Resume
+                Deploy Career Intelligence Platform
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
-              No credit card required • Free to start • Takes less than 2 minutes
+              Enterprise trial available • SOC 2 compliant • Sub-15-second processing
             </p>
           </motion.div>
         </div>
