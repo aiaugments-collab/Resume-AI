@@ -24,7 +24,7 @@ export function LandingHeader() {
         <Link href="/" className="flex items-center space-x-2">
           <Icons.resume className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            CareerFlow AI
+            Career Assistant
           </span>
         </Link>
 

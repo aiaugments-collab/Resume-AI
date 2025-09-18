@@ -9,7 +9,7 @@ import { ClerkProvider } from '@clerk/nextjs';
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
+  title: 'Career Assistant - Enterprise Career Intelligence Platform',
   description:
     'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
   keywords: [
@@ -46,22 +46,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://resume-ai.vercel.app',
-    title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
+    title: 'Career Assistant - Enterprise Career Intelligence Platform',
     description:
       'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
-    siteName: 'CareerFlow AI',
+    siteName: 'Career Assistant',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'CareerFlow AI - Enterprise Career Intelligence Platform'
+        alt: 'Career Assistant - Enterprise Career Intelligence Platform'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'CareerFlow AI - Enterprise Career Intelligence Platform',
+    title: 'Career Assistant - Enterprise Career Intelligence Platform',
     description:
       'Enterprise-grade AI career intelligence platform leveraging advanced machine learning for strategic career optimization, predictive analytics, and data-driven professional positioning.',
     images: ['/og-image.png']
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   category: 'productivity',
-  applicationName: 'CareerFlow AI',
+  applicationName: 'Career Assistant',
   generator: 'Next.js'
 };
 

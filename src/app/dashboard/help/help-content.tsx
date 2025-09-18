@@ -34,7 +34,7 @@ export function HelpContent() {
   const popularArticles = [
     {
       title: 'Deploy your first AI-powered career document',
-      description: 'Enterprise guide to leveraging CareerFlow AI platform capabilities',
+      description: 'Enterprise guide to leveraging Career Assistant platform capabilities',
       readTime: '5 min read',
       category: 'Platform Onboarding'
     },

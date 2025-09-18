@@ -44,7 +44,7 @@ import { usePathname } from 'next/navigation';
 import { Icons } from '../icons';
 
 export const company = {
-  name: 'CareerFlow AI',
+  name: 'Career Assistant',
   logo: Icons.resume,
   plan: 'Enterprise Platform'
 };

@@ -2,7 +2,7 @@ import { SignIn } from '@clerk/nextjs';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Enterprise Access | CareerFlow AI',
+  title: 'Enterprise Access | Career Assistant',
   description: 'Secure enterprise authentication portal for career intelligence platform.'
 };
 
